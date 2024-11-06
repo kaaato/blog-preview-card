@@ -78,3 +78,81 @@ textarea:not([rows]) {
 :target {
   scroll-margin-block: 5ex;
 }
+
+/* my css */
+body {
+  font-family: "femFigtree", sans-serif;
+  font-size: 1rem;
+  color: var(--font-color-dark);
+  font-weight: 500;
+  background-color: var(--color-yellow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-weight: 800;
+}
+
+main {
+  background-color: var(--color-white);
+  max-width: 23.75rem;
+  padding: 20px;
+  border-radius: 20px;
+  outline: 1px solid var(--font-color-dark);
+  box-shadow: 0.5em 0.5em var(--font-color-dark);
+}
+
+main img[role="none"] {
+  border-radius: 10px;
+}
+
+main div {
+  font-size: 0.9rem;
+}
+
+main div ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 1.5em 0 1em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.tag {
+  font-weight: 800;
+  padding: 0.3em 1em;
+  background-color: var(--color-yellow);
+  border-radius: 5px;
+}
+
+main article p {
+  color: var(--font-color-light);
+}
+
+main footer {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 10px;
+}
+
+main footer p {
+  margin-top: 0;
+  font-weight: 800;
+}
+
+.attribution { 
+  font-size: 0.6875rem; 
+  text-align: center;
+  margin-top: 1em;
+}
+
+
+
+.attribution a { 
+  color: var(--font-color-footer); 
+}
