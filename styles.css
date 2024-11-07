@@ -82,7 +82,7 @@ textarea:not([rows]) {
 /* my css */
 body {
   font-family: "femFigtree", sans-serif;
-  font-size: 1rem;
+  font-size: clamp(0.9375rem, 2vw, 1rem);
   color: var(--font-color-dark);
   font-weight: 500;
   background-color: var(--color-yellow);
@@ -99,7 +99,7 @@ h2 {
 main {
   background-color: var(--color-white);
   max-width: 23.75rem;
-  padding: 20px;
+  padding: 1.5rem;
   border-radius: 20px;
   outline: 1px solid var(--font-color-dark);
   box-shadow: 0.5em 0.5em var(--font-color-dark);
@@ -110,7 +110,7 @@ main img[role="none"] {
 }
 
 main div {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 main div ul {
