@@ -94,6 +94,11 @@ body {
 
 h2 {
   font-weight: 800;
+  cursor: pointer;
+}
+
+h2:hover {
+  color: var(--color-yellow);
 }
 
 main {
